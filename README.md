@@ -23,9 +23,9 @@ We start from a baseline classifier and progressively add adversarial and contra
 Each phase builds on the previous one, forming a curriculum that moves from *keyword-based logic detection* → *robust reasoning under perturbation* → *semantic understanding of logical relationships*.
 
 ---
-
 ## 🧩 Project Structure
 
+```
 📂 LogiGAN/
 ├── 764_LOGIGAN_phase1.ipynb        # Baseline DistilBERT classifier
 ├── 764_LogiGAN_phase2.ipynb        # Adversarial fine-tuning + hard negative mining
@@ -34,7 +34,7 @@ Each phase builds on the previous one, forming a curriculum that moves from *key
 ├── models/                         # Saved model checkpoints
 ├── results/                        # Evaluation outputs, logs, and plots
 └── README.md                       # This file
-
+```
 ---
 
 ## ⚙️ Setup Instructions
@@ -187,7 +187,3 @@ Inspired by advances in:
 
 ⸻
 
-
----
-
-Would you like me to tailor this README’s **tone** (e.g. make it more “academic paper style” vs “developer-friendly”) before you commit it to GitHub? I can polish it either way.
