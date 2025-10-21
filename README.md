@@ -3,10 +3,10 @@
 🧩 Step 1. Understanding What Each Phase Does
 
 Phase 1 — Baseline Logical Classifier
-	•	Goal: Train a baseline DistilBERT classifier on logical vs non-logical sentences.
-	•	Pipeline:
-	•	Load pre-trained distilbert-base-uncased.
-	•	Fine-tune it on a dataset of logical statements identified via heuristics (like “if”, “because”, etc.).
+	Goal: Train a baseline DistilBERT classifier on logical vs non-logical sentences.
+Pipeline:
+		1. Load pre-trained distilbert-base-uncased.
+		2. Fine-tune it on a dataset of logical statements identified via heuristics (like “if”, “because”, etc.).
 	•	Train using a standard classification loss (CrossEntropyLoss).
 	•	Evaluate using accuracy (and possibly loss) on validation set.
 	•	Output: Baseline model accuracy = your reference point.
