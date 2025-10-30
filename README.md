@@ -1,9 +1,5 @@
 # DeepLearning_LogiGAN
 
-Perfect — here’s a clean, professional README.md for your GitHub repo that explains your three LogiGAN experiments clearly and follows the standard structure used in research code repositories. It’s written to make your project look polished, reproducible, and publication-ready.
-
-⸻
-
 
 # 🧠 LogiGAN: Progressive Fine-Tuning for Logical Reasoning in Language Models
 
